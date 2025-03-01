@@ -1,6 +1,6 @@
 ## Deploying Nginx with MetalLB in Kubernetes
 
-#Step 1: Install MetalLB
+# Step 1: Install MetalLB
 
 MetalLB needs to be installed in Layer 2 mode.
 ```
