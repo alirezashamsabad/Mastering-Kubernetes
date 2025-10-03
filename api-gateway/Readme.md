@@ -58,11 +58,8 @@ A **Kubernetes API Gateway** is a layer that sits in front of your services, pro
 ---
 
 ## How It Works
+![Gateway Request Flow](https://kubernetes.io/docs/images/gateway-request-flow.svg)
 
-::contentReference[oaicite:0]{index=0}
-
-
-*(This diagram is adapted from Kubernetes’ gateway/request-flow architecture visuals.)*
 1. **Client Request**
    - A client (browser, mobile app, or another service) sends a request to the Kubernetes API Gateway endpoint.
 
