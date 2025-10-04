@@ -1,0 +1,17 @@
+apiVersion: monitoring.coreos.com/v1alpha1
+kind: ScrapeConfig
+metadata:
+  name: static-targets
+  namespace: monitoring
+  labels:
+    release: kube-prom-stack  # must match your Prometheus release label
+spec:
+  staticConfigs:
+    - targets:
+        - "10.0.0.5:9100"
+        - "10.0.0.6:9100"
+      labels:
+        job: "node-exporter-external"
+        environment: "prod"
+  metricsPath: /metrics
+  scrapeInterval: 30s
