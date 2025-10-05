@@ -5,7 +5,7 @@ helm repo update prometheus-community
 HELM_CHART_VERSION="77.13.0"
 helm install kube-prom-stack prometheus-community/kube-prometheus-stack --version "${HELM_CHART_VERSION}" \
   --namespace monitoring \
-  --create-namespace \
+  --create-namespace 
 
  kubectl --namespace monitoring get pods -l "release=kube-prom-stack"
 ```
