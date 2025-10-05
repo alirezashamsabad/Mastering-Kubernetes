@@ -1,3 +1,6 @@
+# Config your kubeconf First
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+
 # 1- install Prometheus stack first
 ```
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
