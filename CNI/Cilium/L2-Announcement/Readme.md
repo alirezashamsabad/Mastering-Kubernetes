@@ -173,12 +173,18 @@ helm repo update
 
 # 4- Create a pool  for loadbalancer address
 ```
-kubectl apply pool.yml
+kubectl apply -f pool.yml
 ```
 # 5- Create a policy for L2 Anouncement 
 ```
-kubectl apply policy.yml
+kubectl apply -f policy.yml
 ```
+# 6- Apply a demo to verify SVC that must has a dedicate ip address
+```
+kubectl apply -f demp.yml
+```
+
+
 
 
 
