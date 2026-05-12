@@ -3,7 +3,7 @@
 Production-ready guide for installing and testing Gateway API with Cilium on Baremetal / On-Prem Kubernetes using L2 Announcements.
 
 ---
-  
+
 # Architecture
 
 ```text
