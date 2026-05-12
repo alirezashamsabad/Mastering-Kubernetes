@@ -289,7 +289,7 @@ Get Gateway LoadBalancer IP:
 ```bash
 kubectl get svc
 ```
-
+  
 Test:
 
 ```bash
